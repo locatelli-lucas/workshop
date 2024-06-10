@@ -13,7 +13,7 @@ import com.locatellilucas.course.entities.Product;
 import com.locatellilucas.course.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/product")
+@RequestMapping(value = "/products")
 public class ProductResource {
 	
 	@Autowired
